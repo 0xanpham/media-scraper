@@ -21,7 +21,10 @@ async function produce(customerId: number, topic: string, url: string) {
 }
 
 async function consume(topic: string) {
-  const consumer = kafka.consumer({ groupId: "media-scraper-group" });
+  const consumer = kafka.consumer({
+    groupId: "media-scraper-group",
+    sessionTimeout: 90000,
+  });
 
   await consumer.connect();
   await consumer.subscribe({ topic, fromBeginning: true });

@@ -24,7 +24,7 @@ async function scrape(url: string, customerId: number) {
       }
     });
 
-    await page.goto(url);
+    await page.goto(url, { waitUntil: "networkidle2" });
 
     const medias = await page.evaluate(() => {
       // Get all images' src starting with https://
