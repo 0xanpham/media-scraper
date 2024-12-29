@@ -54,7 +54,6 @@ curl
 --data '{
     "urls": [
         "https://www.stadiumcreativegroup.com/",
-        "https://www.pastamancini.com/en",
         "https://an-pham.com/",
         "https://www.flashscore.com/"
     ]
