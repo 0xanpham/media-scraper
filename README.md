@@ -49,7 +49,7 @@ curl
 ```bash
 curl
 --location 'http://localhost:8080/media/import' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoiYW5waGFtIiwiaWF0IjoxNzM1NDQ4NDAxLCJleHAiOjE3MzgwNDA0MDF9.efDU9jUblev6nbwPP83nfK9FEZMYiUrqznFrUtJhSSs' \
+--header 'Authorization: Bearer {TOKEN}' \
 --header 'Content-Type: application/json' \
 --data '{
     "urls": [
