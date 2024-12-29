@@ -19,7 +19,7 @@ mediaRouter.post(
       for (const url of urls) {
         await produce(userId, MEDIA_TOPIC, url);
       }
-      res.status(200).json({ urls });
+      res.status(200).json({ message: "Server is processing your request" });
     } catch (error) {
       next(error);
     }
