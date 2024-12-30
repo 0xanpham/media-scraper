@@ -47,8 +47,7 @@ Wait until the client service started then we are good to go.
 #### Sign up
 
 ```bash
-curl
---location 'http://localhost:8080/auth/sign-up' \
+curl --location 'http://localhost:8080/auth/sign-up' \
 --header 'Content-Type: application/json' \
 --data '{
     "username": "username",
@@ -59,8 +58,7 @@ curl
 #### Sign in
 
 ```bash
-curl
---location 'http://localhost:8080/auth/sign-in' \
+curl --location 'http://localhost:8080/auth/sign-in' \
 --header 'Content-Type: application/json' \
 --data '{
     "username": "username",
@@ -71,8 +69,7 @@ curl
 ### 2. Select website urls to scrape from
 
 ```bash
-curl
---location 'http://localhost:8080/media/import' \
+curl --location 'http://localhost:8080/media/import' \
 --header 'Authorization: Bearer {TOKEN}' \
 --header 'Content-Type: application/json' \
 --data '{
