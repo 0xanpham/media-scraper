@@ -42,7 +42,7 @@ Wait until the client service started then we are good to go.
 
 ## Step by step tutorial
 
-### Get authenticated token
+### 1. Get authenticated token
 
 #### Sign up
 
@@ -68,7 +68,7 @@ curl
 }'
 ```
 
-### Select website urls to scrape from
+### 2. Select website urls to scrape from
 
 ```bash
 curl
@@ -84,7 +84,7 @@ curl
 }'
 ```
 
-### Get medias
+### 3. Get medias
 
 #### via API
 
