@@ -2,7 +2,7 @@
 
 ## Overview
 
-Web scraper using `puppeteer` to scrape medias from websites.
+Media scraper using `puppeteer` to scrape medias from websites.
 
 ### Architecture
 
