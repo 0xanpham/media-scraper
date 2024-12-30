@@ -50,7 +50,7 @@ Wait until the client service started then we are good to go.
 curl --location 'http://localhost:8080/auth/sign-up' \
 --header 'Content-Type: application/json' \
 --data '{
-    "username": "username",
+    "username": "anpham",
     "password": "123456"
 }'
 ```
@@ -61,7 +61,7 @@ curl --location 'http://localhost:8080/auth/sign-up' \
 curl --location 'http://localhost:8080/auth/sign-in' \
 --header 'Content-Type: application/json' \
 --data '{
-    "username": "username",
+    "username": "anpham",
     "password": "123456"
 }'
 ```
